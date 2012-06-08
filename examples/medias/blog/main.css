@@ -1,0 +1,134 @@
+body {
+    background-color:       black;
+}
+body div{
+    border: 0px solid   black; 
+}
+#page {
+    position:   absolute;
+    background-color:       black;
+    top:        0px;
+    height:            100%;
+    left:       15%;
+    right:      15%;
+    top:        0px;
+    bottom:     0px;
+}
+#header {
+    top:        0px;
+    height:            6%;
+    font-size:          50px;
+    text-shadow:        5px 5px 5px #eee;
+    padding-left:       3%;
+    color:              #fff;
+}
+#topbar {
+    position:           relative;
+    display:            block;
+
+    float:               right;
+    top:                 15px;
+    margin-right:        2px;
+    padding-left:        5px;
+    padding-right:       5px;
+    padding-bottom:       1px;
+
+    -moz-border-radius:  20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    font-size:      15px;
+}
+
+#rightmenu {
+    float:              right;
+    position:           absolute;
+/*     top:                150px; */
+    top:                50px;
+    right:              0px;
+
+    height:             45%;
+    /*width:            130px;*/
+    width:              20%;
+    font-size:          10px;
+    -moz-border-radius:  20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+
+}
+#content {
+    /*display:                block;*/
+    float:                  left;
+
+    margin-top:            25px;
+    margin-right:             1px;
+    padding-right:               0px;
+    left:                   0px;
+    height:                 85%;
+    width:                  84%;
+    
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    -khtml-border-radius:   5px;
+    border-radius:          5px;
+}
+#footer {
+    position:       absolute;
+    display:    block;
+    border:     1px dotted blue;
+    bottom:          0px;
+    right:        15%;
+    left:        15%;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    border-radius: 1px;
+}
+.comment{
+    position:       relative;
+    float: left;
+    margin-top:     5px;
+    margin-left:     30px;
+    border:         0px dotted red;
+    padding-top:    10px;
+    padding-left:   10px;
+    width:          85%;
+}
+.comment .ctitle{
+    position:       relative;
+    border:         0px dotted red;
+    font-size:      18px;
+    padding-top:    5px;
+}
+.comment .cmenu{
+    position:       relative;
+    border:         0px dotted red;
+    font-size:      9px;
+    padding-bottom:    5px;
+}
+.coptions{
+    position:           relative;
+    float:              right;
+    border:             1px solid #efefef;
+    margin-left:              5px;
+    top:              5px;
+    width:              50px;
+}
+#topbar,.comment, #rightmenu {
+    border:                 1px solid #efefef;
+/*    box-shadow: 2px 3px 5px #ffffff;*/
+    background-color:   #7d8da4;
+}
+
+a{
+    cursor: pointer;
+    text-decoration:    none;
+    color:              white;
+    /*background-color:   black;*/
+
+}
+a:hover{
+    color:              black;
+    text-decoration:    none;
+}

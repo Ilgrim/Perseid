@@ -1,0 +1,21 @@
+2012-05-24
+ * Minor improvements.
+
+2012-05-18
+ * Early implementation of Auth hook with basic htdigest support.
+ 
+2012-05-10
+ * fixing test/settings.php paths
+
+2011-11-16
+ *   0.0.1 released
+
+2011-11-14
+ * Refactorizationg.
+ * Redesign of some parts of framework.
+
+2011-10-18
+ * Clean SEO friendly urls implemented.
+
+2011-08-03
+  * Initial commit
